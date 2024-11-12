@@ -29,7 +29,7 @@ const Navbar = () => {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://t.me/+AbFsJ0Pfry5lMmNk"
+                    href="https://x.com/WenPorscheCoin"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/ThoonMeme"
+                    href="https://x.com/WenPorscheCoin"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -131,3 +131,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

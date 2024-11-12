@@ -55,8 +55,8 @@ const MainSection = () => {
   const handleBuy = async () => {
     setLoading(true);
     try {
-      if (amount < 0.034) {
-        toast.error("Minimum buy is 0.034 BNB");
+      if (amount < 0.0001) {
+        toast.error("Minimum buy is 0.0001 BNB");
         setLoading(false);
         return;
       }
@@ -77,12 +77,12 @@ const MainSection = () => {
         <div className="ggtt">
           <div className="col-lg-7">
             <h1 class="banner-title">
-              <span>Thoon</span> The futur
+              <span>PORSCHE</span> The futur
               <br />
               of Memecoins
             </h1>
             <h4 class="banner-subtitle">
-              Buy $Thoon and make your wallet great Again!
+              Buy $PORSHE and make your wallet great Again!
             </h4>
             <a
               href="/"
@@ -156,27 +156,27 @@ const MainSection = () => {
                     <p>Presale Week </p>
                   </div>
                   <div class="presale-card-msg">
-                    <p>The price increases every week. enjoy it now!</p>
+                    <p>The price increases after presale</p>
                   </div>
                   <div class="presale-card-counter">
-                    <p>Presale Starts in March 1</p>
+                    <p>Presale Starts in November 1</p>
                   </div>
                   <ul variant="v2" class="sc-gLLuof iQxcRT">
                     <li>
                       <p>Token Name</p>
-                      <h6>Thoon</h6>
+                      <h6>PORSCHE</h6>
                     </li>
                     <li>
                       <p>Token Symbol</p>
-                      <h6>$Thoon</h6>
+                      <h6>$PORSCHE</h6>
                     </li>
                     <li>
                       <p>Current Price</p>
-                      <h6>0.000139 BNB</h6>
+                      <h6>0.000000015 BNB</h6>
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.034 BNB</h6>
+                      <h6>0.0001 BNB</h6>
                     </li>
                   </ul>
                 </div>
@@ -217,7 +217,7 @@ const MainSection = () => {
                           />
                         </div>
                         <div class="presale-item-inner">
-                          <label>Get Token ($Thoon)</label>
+                          <label>Get Token ($PORSCHE)</label>
                           <input
                             type="number"
                             placeholder="0"
@@ -246,7 +246,7 @@ const MainSection = () => {
                               data-testid="loader"
                             />
                           ) : (
-                            "Buy Thoon"
+                            "Buy PORSCHE"
                           )}
                         </button>
                       ) : (

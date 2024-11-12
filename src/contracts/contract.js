@@ -1,7 +1,7 @@
 export const TOKEN_CONTRACT_ADDRESS =
-  "0xbD9A8E04bfF72B1036f2eDbF218679F3583F383B";
+  "0x4ca79811f05F5ab9E93C26e6dE2459198d9BF664";
 export const PRESALE_CONTRACT_ADDRESS =
-  "0xc05AE68b2E7595816393AD5C288DCE7B829135Be";
+  "0xefc13fd30fa3eda3fd1936ee6a04026c4831f763";
 
 export const TOKEN_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },

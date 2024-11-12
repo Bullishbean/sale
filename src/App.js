@@ -10,27 +10,28 @@ import { Toaster } from "react-hot-toast";
 // 1. Get projectId
 const projectId = "862e2544b694a246addaff50ba2ab87e";
 
-// 2. Set chains
-const mainnet = {
-  chainId: 1,
-  name: "Ethereum",
-  currency: "ETH",
-  explorerUrl: "https://etherscan.io",
-  rpcUrl: "https://cloudflare-eth.com",
-};
-const sepolia = {
-  chainId: 11155111,
-  name: "Sepolia",
-  currency: "ETH",
-  explorerUrl: "https://rpc.sepolia.org",
-  rpcUrl: "https://endpoints.omniatech.io/v1/eth/sepolia/public",
+// 2. Set chains for BSC
+const bscMainnet = {
+  chainId: 56,  // BSC Mainnet chain ID
+  name: "Binance Smart Chain",
+  currency: "BNB",
+  explorerUrl: "https://bscscan.com",
+  rpcUrl: "https://bsc-dataseed.binance.org/",
 };
 
-// 3. Create a metadata object
+const bscTestnet = {
+  chainId: 97,  // BSC Testnet chain ID
+  name: "Binance Smart Chain Testnet",
+  currency: "BNB",
+  explorerUrl: "https://testnet.bscscan.com",
+  rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+};
+
+// 3. Create a metadata object (optional)
 const metadata = {
-  name: "My Website",
-  description: "My Website description",
-  url: "https://mywebsite.com", // origin must match your domain & subdomain
+  name: "My BSC dApp",
+  description: "A decentralized app on Binance Smart Chain",
+  url: "https://mybscdapp.com",
   icons: ["https://avatars.mywebsite.com/"],
 };
 
@@ -40,10 +41,10 @@ const ethersConfig = defaultConfig({
   metadata,
 });
 
-// 5. Create a Web3Modal instance
+// 5. Create a Web3Modal instance with BSC configuration
 createWeb3Modal({
   ethersConfig,
-  chains: [mainnet, sepolia],
+  chains: [bscMainnet, bscTestnet],  // Use BSC mainnet and testnet
   projectId,
   enableAnalytics: true, // Optional - defaults to your Cloud configuration
 });
