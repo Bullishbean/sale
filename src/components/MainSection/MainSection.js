@@ -55,8 +55,8 @@ const MainSection = () => {
   const handleBuy = async () => {
     setLoading(true);
     try {
-      if (amount < 0.0001) {
-        toast.error("Minimum buy is 0.0001 BNB");
+      if (amount < 0.14) {
+        toast.error("Minimum buy is 0.014 BNB");
         setLoading(false);
         return;
       }
@@ -89,10 +89,7 @@ const MainSection = () => {
               className="whitepaper-btn "
               style={{ textDecoration: "none" }}
             >
-              <img
-                src="https://launch.thoon.xyz/assets/document-text-f43aae96.svg"
-                alt="icon"
-              />
+              
               Whitepaper
             </a>
           </div>
@@ -172,11 +169,11 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Current Price</p>
-                      <h6>0.000000015 BNB</h6>
+                      <h6>0.0016 BNB</h6>
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.0001 BNB</h6>
+                      <h6>0.14 BNB</h6>
                     </li>
                   </ul>
                 </div>

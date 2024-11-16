@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="gittu-header-left">
             <a className="gittu-header-logo" href="https://thoon.xyz/">
               <img
-                src="/assets/logo123.jpg"
+                src="https://i.postimg.cc/GtKYw16J/logo.jpg"
                 alt="Porsche"
               />
             </a>
