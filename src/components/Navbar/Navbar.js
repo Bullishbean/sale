@@ -19,8 +19,8 @@ const Navbar = () => {
           <div className="gittu-header-left">
             <a className="gittu-header-logo" href="https://thoon.xyz/">
               <img
-                src="https://launch.thoon.xyz/assets/logo-black-baby-24dae079.png"
-                alt="Logo"
+                src="/assets/logo123.jpg"
+                alt="Porsche"
               />
             </a>
           </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/ThoonMeme"
+                href="https://twitter.com/wenporschecoin"
                 target="_blank"
                 rel="noreferrer"
               >

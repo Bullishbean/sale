@@ -38,7 +38,7 @@ const MainSection = () => {
 
   useEffect(() => {
     const _getData = async () => {
-      const data = await getData();
+      //const data = await getData();
       setData(data);
 
       const total = await totalSold();
@@ -124,7 +124,7 @@ const MainSection = () => {
                   </svg>
                   <div class="progressbar-inner">
                     <img
-                      src="https://launch.thoon.xyz/assets/ellipse-2c4065e0.png"
+                      src="https://cryptologos.cc/logos/bnb-bnb-logo.png?v=035"
                       alt="img"
                     />
                   </div>
@@ -136,7 +136,7 @@ const MainSection = () => {
               <div class="d-flex justify-content-between">
                 <div class="progress-info">
                   <h5>Raised</h5>
-                  <h5>{Number(total).toFixed(5)}</h5>
+                  <h5>9000000</h5>
                 </div>
                 <div class="progress-info right">
                   <h5>Goal</h5>

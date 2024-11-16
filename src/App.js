@@ -4,7 +4,7 @@ import MainSection from "./components/MainSection/MainSection";
 import Referral from "./components/Referral/Referral";
 
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers/react";
-import { useState } from "react";
+//import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 
 // 1. Get projectId
