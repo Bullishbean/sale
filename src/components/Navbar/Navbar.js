@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <div className="gittu-header-content">
           <div className="gittu-header-left">
-            <a className="gittu-header-logo" href="https://thoon.xyz/">
+            <a className="gittu-header-logo" href="https://x.com/WenPorscheCoin">
               <img
                 src="https://i.postimg.cc/GtKYw16J/logo.jpg"
                 alt="Porsche"

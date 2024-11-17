@@ -156,7 +156,7 @@ const MainSection = () => {
                     <p>The price increases after presale</p>
                   </div>
                   <div class="presale-card-counter">
-                    <p>Presale Starts in November 1</p>
+                    <p>Presale Starts in November 17</p>
                   </div>
                   <ul variant="v2" class="sc-gLLuof iQxcRT">
                     <li>
