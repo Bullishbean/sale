@@ -100,7 +100,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/wenporschecoin"
+                href="https://twitter.com/fragcoin"
                 target="_blank"
                 rel="noreferrer"
               >

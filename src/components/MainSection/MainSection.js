@@ -150,7 +150,7 @@ const MainSection = () => {
               <div class="presale-card">
                 <div class="presale-card-left">
                   <div class="presale-card-title">
-                    <p>Presale Week </p>
+                    <p>Public Sale </p>
                   </div>
                   <div class="presale-card-msg">
                     <p>The price increases after CEX listing</p>
