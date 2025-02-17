@@ -22,7 +22,7 @@ const Referral = () => {
           </h1>
           <span className="desc">
             Share your referral link and get paid instantly to your wallet for
-            every referred thoon purchase.
+            every referred FRAG purchase.
           </span>
           <br />
           <p className="desc">Referral commission 5%</p>

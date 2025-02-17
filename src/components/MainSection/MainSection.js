@@ -42,21 +42,21 @@ const MainSection = () => {
       setData(data);
 
       const total = await totalSold();
-      setTotal(total * 0.000139);
+      setTotal(total * 0.000420);
       console.log(total);
     };
     if (address) _getData();
   }, [address, change]);
 
   useEffect(() => {
-    setReceive(amount / 0.000139);
+    setReceive(amount / 0.000420);
   }, [amount]);
 
   const handleBuy = async () => {
     setLoading(true);
     try {
-      if (amount < 0.014) {
-        toast.error("Minimum buy is 0.014 BNB");
+      if (amount < 0.13) {
+        toast.error("Minimum buy is 0.13 BNB");
         setLoading(false);
         return;
       }
@@ -77,12 +77,12 @@ const MainSection = () => {
         <div className="ggtt">
           <div className="col-lg-7">
             <h1 class="banner-title">
-              <span>PORSCHE</span> The futur
+              <span>FRAG</span> The futur
               <br />
               of Memecoins
             </h1>
             <h4 class="banner-subtitle">
-              Buy $PORSHE and make your wallet great Again!
+              Buy $Frag and make your wallet great Again!
             </h4>
             <a
               href="/"
@@ -153,27 +153,27 @@ const MainSection = () => {
                     <p>Presale Week </p>
                   </div>
                   <div class="presale-card-msg">
-                    <p>The price increases after presale</p>
+                    <p>The price increases after CEX listing</p>
                   </div>
                   <div class="presale-card-counter">
-                    <p>Presale Starts in November 17</p>
+                    <p>CEX listing on 19th Febuary</p>
                   </div>
                   <ul variant="v2" class="sc-gLLuof iQxcRT">
                     <li>
                       <p>Token Name</p>
-                      <h6>PORSCHE</h6>
+                      <h6>FRAG</h6>
                     </li>
                     <li>
                       <p>Token Symbol</p>
-                      <h6>$PORSCHE</h6>
+                      <h6>$FRAG</h6>
                     </li>
                     <li>
                       <p>Current Price</p>
-                      <h6>0.0016 BNB</h6>
+                      <h6>0.2738 BNB</h6>
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.014 BNB</h6>
+                      <h6>0.13 BNB</h6>
                     </li>
                   </ul>
                 </div>
@@ -214,7 +214,7 @@ const MainSection = () => {
                           />
                         </div>
                         <div class="presale-item-inner">
-                          <label>Get Token ($PORSCHE)</label>
+                          <label>Get Token ($FRAG)</label>
                           <input
                             type="number"
                             placeholder="0"
@@ -243,7 +243,7 @@ const MainSection = () => {
                               data-testid="loader"
                             />
                           ) : (
-                            "Buy PORSCHE"
+                            "Buy FRAG"
                           )}
                         </button>
                       ) : (

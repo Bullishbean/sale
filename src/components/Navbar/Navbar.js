@@ -17,10 +17,10 @@ const Navbar = () => {
       <div className="container">
         <div className="gittu-header-content">
           <div className="gittu-header-left">
-            <a className="gittu-header-logo" href="https://x.com/WenPorscheCoin">
+            <a className="gittu-header-logo" href="https://x.com/FragCoin">
               <img
-                src="https://i.postimg.cc/GtKYw16J/logo.jpg"
-                alt="Porsche"
+                src="https://i.postimg.cc/vZC9LQgr/1500x500.jpg"
+                alt="Frag"
               />
             </a>
           </div>
@@ -29,24 +29,24 @@ const Navbar = () => {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://x.com/WenPorscheCoin"
+                    href="https://https://t.me/fragcoinbsc"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src="https://launch.thoon.xyz/assets/telegram-b4a7f7ac.svg"
+                      src="https://i.postimg.cc/3Jj9kdtD/telegram.png"
                       alt="icon"
                     />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://x.com/WenPorscheCoin"
+                    href="https://x.com/FragCoin"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src="https://launch.thoon.xyz/assets/twitter-a36d5187.svg"
+                      src="https://i.postimg.cc/BQhL736V/xlogo.png"
                       alt="icon"
                     />
                   </a>
@@ -88,7 +88,7 @@ const Navbar = () => {
           <ul className=" jj">
             <li>
               <a
-                href="https://t.me/+AbFsJ0Pfry5lMmNk"
+                href="https://https://t.me/fragcoinbsc"
                 target="_blank"
                 rel="noreferrer"
               >
