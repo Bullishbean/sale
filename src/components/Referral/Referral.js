@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import "./referral.css";
 import { useWeb3ModalAccount } from "@web3modal/ethers/react";
+import { useEffect, useState } from "react";
+import "./referral.css";
 const Referral = () => {
   const [referral, setReferral] = useState("");
   const { address, isConnected } = useWeb3ModalAccount();
@@ -22,7 +22,7 @@ const Referral = () => {
           </h1>
           <span className="desc">
             Share your referral link and get paid instantly to your wallet for
-            every referred FRAG purchase.
+            every referred XLD purchase.
           </span>
           <br />
           <p className="desc">Referral commission 5%</p>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <div className="gittu-header-content">
           <div className="gittu-header-left">
-            <a className="gittu-header-logo" href="https://x.com/FragCoin">
+            <a className="gittu-header-logo" href="https://x.com/xcelpaywallet">
               <img
                 src="https://i.postimg.cc/vZC9LQgr/1500x500.jpg"
                 alt="Frag"
@@ -29,7 +29,7 @@ const Navbar = () => {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://https://t.me/fragcoinbsc"
+                    href="https://https://x.com/xcelpaywallet"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="https://x.com/FragCoin"
+                    href="https://x.com/xcelpaywallet"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -88,7 +88,7 @@ const Navbar = () => {
           <ul className=" jj">
             <li>
               <a
-                href="https://https://t.me/fragcoinbsc"
+                href="https://https://t.me/xceltoken"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -100,7 +100,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/fragcoin"
+                href="https://twitter.com/xcelpaywallet"
                 target="_blank"
                 rel="noreferrer"
               >
