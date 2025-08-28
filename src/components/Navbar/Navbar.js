@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="gittu-header-left">
             <a className="gittu-header-logo" href="https://x.com/xcelpaywallet">
               <img
-                src="https://i.postimg.cc/vZC9LQgr/1500x500.jpg"
+                src="https://i.postimg.cc/kX5fCgYv/download.png"
                 alt="Frag"
               />
             </a>
