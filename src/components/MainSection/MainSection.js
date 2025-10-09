@@ -17,7 +17,7 @@ const MainSection = () => {
   const [amount, setAmount] = useState(0);
   const [receive, setReceive] = useState(0);
   let [loading, setLoading] = useState(false);
-  let [color] = useState("#ffffff");
+  let [color] = useState("#ffffffff");
   const [data, setData] = useState(null);
   const [total, setTotal] = useState(0);
   const [change, setChange] = useState(false);
@@ -56,7 +56,7 @@ const MainSection = () => {
     setLoading(true);
     try {
       if (amount < 0.13) {
-        toast.error("Minimum buy is 0.5 BNB");
+        toast.error("Minimum buy is 0.7 BNB");
         setLoading(false);
         return;
       }
@@ -119,12 +119,7 @@ const MainSection = () => {
                       stroke-linecap="round"
                     ></circle>
                   </svg>
-                  <div class="progressbar-inner">
-                    <img
-                      src="https://cryptologos.cc/logos/bnb-bnb-logo.png?v=035"
-                      alt="img"
-                    />
-                  </div>
+                 
                   <div class="progress-level">
                     <h2>{Number((total * 100) / 10000000).toFixed(2)}%</h2>
                   </div>
@@ -169,11 +164,11 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Current Price</p>
-                      <h6>0.00212 USDT</h6>
+                      <h6>0.001900 USDT</h6>
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.5 BNB</h6>
+                      <h6>0.78 BNB</h6>
                     </li>
                   </ul>
                 </div>
