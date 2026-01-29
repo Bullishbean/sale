@@ -56,7 +56,7 @@ const MainSection = () => {
     setLoading(true);
     try {
       if (amount < 0.13) {
-        toast.error("Minimum buy is 0.1 BNB");
+        toast.error("Minimum buy is 0.09 BNB");
         setLoading(false);
         return;
       }
