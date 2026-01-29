@@ -168,7 +168,7 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.10 BNB</h6>
+                      <h6>0.08 BNB</h6>
                     </li>
                   </ul>
                 </div>
