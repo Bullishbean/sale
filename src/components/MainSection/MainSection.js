@@ -55,8 +55,8 @@ const MainSection = () => {
   const handleBuy = async () => {
     setLoading(true);
     try {
-      if (amount < 0.13) {
-        toast.error("Minimum buy is 0.13 BNB");
+      if (amount < 0.10) {
+        toast.error("Minimum buy is 0.10 BNB");
         setLoading(false);
         return;
       }
@@ -168,7 +168,7 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>0.13 BNB</h6>
+                      <h6>0.10 BNB</h6>
                     </li>
                   </ul>
                 </div>
