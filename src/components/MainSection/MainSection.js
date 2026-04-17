@@ -164,7 +164,7 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Current Price</p>
-                      <h6>0.0007100 USDT</h6>
+                      <h6>0.0007800 USDT</h6>
                     </li>
                     <li>
                       <p>Minimum Buy</p>
