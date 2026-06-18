@@ -56,7 +56,7 @@ const MainSection = () => {
     setLoading(true);
     try {
       if (amount < 2) {
-        toast.error("Minimum buy is 2 BNB");
+        toast.error("Minimum buy is 1.8 BNB");
         setLoading(false);
         return;
       }
@@ -168,7 +168,7 @@ const MainSection = () => {
                     </li>
                     <li>
                       <p>Minimum Buy</p>
-                      <h6>2 BNB</h6>
+                      <h6>1.8 BNB</h6>
                     </li>
                   </ul>
                 </div>
